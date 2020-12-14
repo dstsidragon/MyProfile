@@ -66,7 +66,7 @@ a:hover{
     border-radius: 50%;
 }
 /*footer*/
-.footer{
+.bg-darkBlue{
     background: #415165;
 }
 /*Skills*/
@@ -76,10 +76,10 @@ a:hover{
 
 
 /*共用*/
-.container{
-    width: 1200px;
+/* .container{
+    max-width: 1200px;
     margin: 0 auto;
-}
+} */
 .fz-20{
     font-size: 20x;
     line-height: 30px;
@@ -200,8 +200,11 @@ a:hover{
 }
 
 .w-642{
-    width: 642px;
+    max-width: 642px;
 }
 .fw-normal{
     font-weight: normal;
+}
+.overflow-scroll{
+    overflow:scroll:
 }
